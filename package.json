@@ -1,15 +1,19 @@
 {
-  "author": "Aaron Evans <fijiaaron@one-shore.com> (http://fijiaaron.com)",
   "name": "bamboo-rest-api",
   "description": "node.js client for interacting with Atlassian Bamboo via its REST API",
   "version": "0.0.1",
+  "author": "Aaron Evans <fijiaaron@one-shore.com> (http://fijiaaron.com)",
   "homepage": "https://github.com/fijiaaron/node-bamboo",
   "repository": {
     "url": "git@github.com:fijiaaron/node-bamboo.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "request" : "1.x"
+  },
   "devDependencies": {
-	"mocha" : "1.0.x"
+	"mocha" : "1.0.x",
+	"should" : "0.6.x",
+	"chai" : "1.x"
   },
   "optionalDependencies": {},
   "engines": {
